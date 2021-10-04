@@ -31,15 +31,15 @@ loops.everyInterval(1000, function () {
     }
 })
 loops.everyInterval(1000, function () {
+    if (亮度判定1亮2不亮 == 1) {
+        计时器 += 1
+    }
+})
+loops.everyInterval(1000, function () {
     if (计时器2 == 0) {
         计时器 += 1
     } else {
     	
-    }
-})
-loops.everyInterval(1000, function () {
-    if (亮度判定1亮2不亮 == 1) {
-        计时器 += 1
     }
 })
 basic.forever(function () {
